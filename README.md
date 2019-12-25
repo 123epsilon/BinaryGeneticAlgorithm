@@ -4,6 +4,6 @@ Python program implementing a genetic algorithm in order to "find" a target bina
 The task is kept simple in order to focus on the algorithm itself, however this code could be modified quite easily in order to suit similar applications - for instance: finding any string of characters rather than only a binary string.
 
 To run the program:
-python ga.py <target> <population_size> <mutation_rate> <max_iter>
+python ga.py <target_string> <population_size> <mutation_rate> <max_iter>
 
 Ex: python ga.py 01001110101 1000 0.01 5000
